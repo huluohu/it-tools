@@ -1,0 +1,65 @@
+home:
+  categories:
+    newestTools: '最新上架'
+    favoriteTools: '我的收藏'
+    allTools: '全部工具'
+  subtitle: '开发者的在线工具库'
+  toggleMenu: '切换菜单'
+  home: 主页
+  uiLib: 样式库
+  buyMeACoffee: '关注我'
+  follow:
+    title: '中意我?'
+    p1: '给我加颗星🌟'
+    githubRepository: 'Github'
+    p2: '关注我'
+    twitterAccount: '我的推特'
+    thankYou: '谢谢!'
+  nav:
+    github: 'Github'
+    githubRepository: 'GitHub'
+    twitter: '我的推特'
+    twitterAccount: '我的推特'
+    about: '关于  IT-Tools'
+    aboutLabel: '关于'
+    darkMode: '暗黑模式'
+    lightMode: '明亮模式'
+    mode: '切换主题'
+about:
+  h1: '关于 IT-Tools'
+  h1p1: '这是一个由❤'
+  h1p2: "创建的神奇网站, 为开发人员和从事IT工作的人汇集了有用的工具。 如果你觉得它有用，请随时与你认为可能也会发现它有用的人分享它，并别忘了将它添加到你的快捷方式栏中!"
+  h1p3: 'IT Tools是开源的（根据MIT许可证），免费且永远免费，但它需要我支付托管和续订域名的费用。如果你想支持我的工作，并鼓励我添加更多工具，请考虑通过赞助来支持我。'
+  h1p4: '赞助我'
+  h2: 技术栈
+  h2p1: 'IT Tools是使用Vue.js（Vue 3）构建的，使用了Naive UI组件库，支持托管在Vercel上或部署在Docker中。某些工具中使用了第三方开源库，你可以在存储库的'
+  h2p2: '文件中找到完整的列表。'
+  h3: 'Found a bug? A tool is missing?'
+  h3p1: 'If you need a tool that is currently not present here, and you think can be useful, you are welcome to submit a feature request in the'
+  h3p2: 'issues section'
+  h3p3: 'in the GitHub repository.'
+  h3p4: "And if you found a bug, or something doesn''t work as expected, please file a bug report in the"
+  h3p5: 'issues section'
+  h3p6: 'in the GitHub repository.'
+404:
+  notFound: '404 Not Found'
+  sorry: '抱歉, 这个页面好像躲起来了'
+  maybe: '貌似缓存出错了, 不如强制刷新一下?'
+  backHome: '回到主页'
+toolCard:
+  new: New
+search:
+  label: 搜索
+tools:
+  categories:
+    favorite-tools: '我的收藏'
+    crypto: 加密
+    converter: 转换
+    web: Web
+    images and videos: '图片&视频'
+    development: 开发
+    network: 网络
+    math: 数学
+    measurement: 测量
+    text: 文本
+    data: 数据

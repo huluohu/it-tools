@@ -8,7 +8,7 @@ import { config } from '@/config';
 
 const toolStore = useToolStore();
 
-useHead({ title: 'IT Tools - Handy online tools for developers' });
+useHead({ title: 'IT Tools - 开发者的在线工具库' });
 const { t } = useI18n();
 </script>
 
@@ -31,7 +31,7 @@ const { t } = useI18n();
               rel="noopener"
               target="_blank"
               :aria-label="$t('home.follow.twitterAccount')"
-            >Twitter</a>.
+            >Twitter</a>.-->
             {{ $t('home.follow.thankYou') }}
             <n-icon :component="Heart" />
           </ColoredCard>

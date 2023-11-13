@@ -123,7 +123,7 @@ const tools = computed<ToolCategory[]>(() => [
         <c-tooltip position="bottom" tooltip="Support IT Tools development">
           <c-button
             round
-            href="https://www.buymeacoffee.com/cthmsst"
+            href="https://www.huluohu.com/about"
             rel="noopener"
             target="_blank"
             class="support-button"
