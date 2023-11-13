@@ -50,6 +50,7 @@ toolCard:
   new: New
 search:
   label: 搜索
+  placeholder: 搜索
 tools:
   categories:
     favorite-tools: '我的收藏'

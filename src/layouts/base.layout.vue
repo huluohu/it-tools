@@ -120,7 +120,7 @@ const tools = computed<ToolCategory[]>(() => [
           <NavbarButtons v-if="!styleStore.isSmallScreen" />
         </div>
 
-        <c-tooltip position="bottom" tooltip="Support IT Tools development">
+        <c-tooltip position="bottom" >
           <c-button
             round
             href="https://www.huluohu.com/about"
