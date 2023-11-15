@@ -24,13 +24,13 @@ echo "平台架构：$p"
 is_local="y"
 if [ "$l" == "$is_local" ]; then
     echo "开始构建本地镜像，忽略参数v=$v"
-    docker buildx build -t fooololo/it-tools:latest --platform $p --load .
+    docker buildx build --builder mybuildx  -t fooololo/it-tools:latest  --platform $p --load .
 else
     echo "开始构建并推送镜像,版本：$v"
-    docker buildx build -t fooololo/it-tools:$v --platform linux/amd64,linux/arm64 --push .
+    docker buildx build --builder mybuildx  -t fooololo/it-tools:$cv  --platform linux/amd64,linux/arm64  --push .
 
     echo "开始构建并推送镜像,版本：latest"
-    docker buildx build -t fooololo/it-tools:latest --platform linux/amd64,linux/arm64 --push .
+    docker buildx build --builder mybuildx  -t fooololo/it-tools:latest  --platform linux/amd64,linux/arm64  --push .
 fi
 
 echo "构建镜像完成"
