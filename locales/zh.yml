@@ -1,66 +1,65 @@
 home:
   categories:
-    newestTools: '最新上架'
-    favoriteTools: '我的收藏'
+    newestTools: '最新工具'
+    favoriteTools: '收藏的工具'
     allTools: '全部工具'
-  subtitle: '开发者的在线工具库'
+  subtitle: '助力开发人员和 IT 工作者'
   toggleMenu: '切换菜单'
-  home: 主页
-  uiLib: 样式库
+  home: '主页'
+  uiLib: 'UI 库'
   buyMeACoffee: '关注我'
   follow:
-    title: '中意我?'
-    p1: '给我加颗星🌟'
-    githubRepository: 'Github'
-    p2: '关注我'
-    twitterAccount: '我的推特'
-    thankYou: '谢谢!'
+    title: '关注我们'
+    p1: '给我们Star'
+    githubRepository: 'GitHub 仓库'
+    p2: '关注我们的'
+    twitterAccount: 'Twitter'
+    thankYou: '感谢您的支持！'
   nav:
-    github: 'Github'
-    githubRepository: 'GitHub'
-    twitter: '我的推特'
-    twitterAccount: '我的推特'
-    about: '关于  IT-Tools'
-    aboutLabel: '关于'
-    darkMode: '暗黑模式'
-    lightMode: '明亮模式'
-    mode: '切换主题'
+    github: 'GitHub 仓库'
+    githubRepository: 'GitHub 仓库'
+    twitter: 'Twitter 账号'
+    twitterAccount: 'Twitter 账号'
+    about: '关于'
+    aboutLabel: '关于 IT-Tools'
+    darkMode: '深色模式'
+    lightMode: '浅色模式'
+    mode: '颜色模式'
 about:
   h1: '关于 IT-Tools'
-  h1p1: '这是一个由❤'
-  h1p2: "创建的神奇网站, 为开发人员和从事IT工作的人汇集了有用的工具。 如果你觉得它有用，请随时与你认为可能也会发现它有用的人分享它，并别忘了将它添加到你的快捷方式栏中!"
-  h1p3: 'IT Tools是开源的（根据MIT许可证），免费且永远免费，但它需要我支付托管和续订域名的费用。如果你想支持我的工作，并鼓励我添加更多工具，请考虑通过赞助来支持我。'
-  h1p4: '赞助我'
-  h2: 技术栈
-  h2p1: 'IT Tools是使用Vue.js（Vue 3）构建的，使用了Naive UI组件库，支持托管在Vercel上或部署在Docker中。某些工具中使用了第三方开源库，你可以在存储库的'
-  h2p2: '文件中找到完整的列表。'
-  h3: 'Found a bug? A tool is missing?'
-  h3p1: 'If you need a tool that is currently not present here, and you think can be useful, you are welcome to submit a feature request in the'
-  h3p2: 'issues section'
-  h3p3: 'in the GitHub repository.'
-  h3p4: "And if you found a bug, or something doesn''t work as expected, please file a bug report in the"
-  h3p5: 'issues section'
-  h3p6: 'in the GitHub repository.'
+  h1p1: 'IT-Tools 由'
+  h1p2: "开发，致力于助力开发人员和 IT 行业工作者。如果对您有帮助，请将其分享给您的朋友，并且添加到收藏夹中！"
+  h1p3: 'IT Tools 永久免费且开源 (MIT 许可证) , 但需要资金用于托管和续订域名. 欢迎'
+  h1p4: '赞助我们'
+  h2: '技术'
+  h2p1: 'IT Tools 采用 Vue.js (Vue 3) 和 Naive UI 组件库制作，由 Vercel 托管和持续部署。 某些工具使用了第三方开源库，您可以在存储库的'
+  h2p2: '文件中找到完整列表'
+  h3: '有Bug？ 缺少功能？'
+  h3p1: '如果您需要的工具目前此处不存在，并且您认为可能有必要，欢迎您在 GitHub 存储库的'
+  h3p2: 'issues'
+  h3p3: '提交新增功能的请求。'
+  h3p4: "如果您发现Bug或某些内容未按预期工作，请在 GitHub 存储库的"
+  h3p5: 'issues'
+  h3p6: '部分提交错误报告。'
 404:
-  notFound: '404 Not Found'
-  sorry: '抱歉, 这个页面好像躲起来了'
-  maybe: '貌似缓存出错了, 不如强制刷新一下?'
-  backHome: '回到主页'
+  notFound: '404 页面不存在'
+  sorry: '抱歉，您访问的页面不存在。'
+  maybe: '也许您可以尝试以下链接：'
+  backHome: '返回主页'
 toolCard:
-  new: New
+  new: '新'
 search:
-  label: 搜索
-  placeholder: 搜索
+  label: '搜索'
 tools:
   categories:
-    favorite-tools: '我的收藏'
-    crypto: 加密
-    converter: 转换
+    favorite-tools: '收藏的工具'
+    crypto: '加密'
+    converter: '转换器'
     web: Web
-    images and videos: '图片&视频'
-    development: 开发
-    network: 网络
-    math: 数学
-    measurement: 测量
-    text: 文本
-    data: 数据
+    images and videos: '图片和视频'
+    development: '开发'
+    network: '网络'
+    math: '数学'
+    measurement: '测量'
+    text: '文本'
+    data: '数据'
