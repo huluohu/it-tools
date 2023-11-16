@@ -7,7 +7,8 @@ home:
   toggleMenu: '切换菜单'
   home: '主页'
   uiLib: 'UI 库'
-  buyMeACoffee: '关注我'
+  support: '关注我'
+  buyMeACoffee: 'Buy me a coffee'
   follow:
     title: '关注我们'
     p1: '给我们Star'

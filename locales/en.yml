@@ -7,7 +7,8 @@ home:
   toggleMenu: 'Toggle menu'
   home: Home
   uiLib: 'UI Lib'
-  buyMeACoffee: 'Follow Me'
+  support: 'Follow Me'
+  buyMeACoffee: 'Buy me a coffee'
   follow:
     title: 'You like it-tools?'
     p1: 'Give us a star on'

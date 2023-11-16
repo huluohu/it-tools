@@ -130,7 +130,7 @@ const tools = computed<ToolCategory[]>(() => [
             :bordered="false"
             @click="() => tracker.trackEvent({ eventName: 'Support button clicked' })"
           >
-            {{ $t('home.buyMeACoffee') }}
+            {{ $t('home.support') }}
             <NIcon v-if="!styleStore.isSmallScreen" :component="Heart" ml-2 />
           </c-button>
         </c-tooltip>
