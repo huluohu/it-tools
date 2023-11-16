@@ -48,6 +48,9 @@ about:
   sorry: 'Sorry, this page does not seem to exist'
   maybe: 'Maybe the cache is doing tricky things, try force-refreshing?'
   backHome: 'Back home'
+favoriteButton:
+  remove: 'Remove from favorites'
+  add: 'Add to favorites'
 toolCard:
   new: New
 search:
@@ -65,6 +68,3 @@ tools:
     measurement: Measurement
     text: Text
     data: Data
-ui:
-  upload:
-    button-text: Browse files
