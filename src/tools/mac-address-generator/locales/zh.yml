@@ -1,0 +1,15 @@
+tools:
+  mac-address-generator:
+    title: 'Mac地址生成器'
+    description: '输入数量和前缀，选择大小写与分隔符，自动生成MAC地址'
+    function:
+      quantity: '数量'
+      prefix: '前缀'
+      case:
+        label: '大小写:'
+        uppercase: '大写'
+        lowercase: '小写'
+        none: '无'
+      separator: '分隔符'
+      refresh: '刷新'
+      copy: '复制'

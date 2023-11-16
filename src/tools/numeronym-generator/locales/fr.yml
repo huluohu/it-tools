@@ -1,0 +1,6 @@
+tools:
+  numeronym-generator:
+    title: 'Générateur numérique'
+    description: Un nombre est un mot dans lequel un nombre est utilisé pour former une abréviation. Par exemple, "i18n" est un nombre pour "internationalisé", où 18 représente le nombre de lettres entre le premier I et le dernier n d'un mot.
+    placeholder1: Saisissez un mot, par exemple « internationalisation ».
+    placeholder2: Votre numéro sera ici, par exemple "i18n".

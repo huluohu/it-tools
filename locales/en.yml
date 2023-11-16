@@ -65,3 +65,6 @@ tools:
     measurement: Measurement
     text: Text
     data: Data
+ui:
+  upload:
+    button-text: Browse files

@@ -1,0 +1,6 @@
+tools:
+  numeronym-generator:
+    title: '数字别名生成器'
+    description: '数字别名是一个用数字构成缩写的词。例如，“i18n”是单词“internationalization”的数字名称，其中18代表单词中第一个i和最后一个n之间的字母数。'
+    placeholder1: '输入一个单词，例如：internationalization'
+    placeholder2: '生成的数字别名，例如：i18n'
