@@ -1,0 +1,17 @@
+tools:
+  bcrypt:
+    title: 'Bcrypt算法哈希器'
+    description: '使用Bcrypt算法对文本字符串进行哈希和比较。Bcrypt是一个基于Blowfish密码的密码哈希函数。'
+    function:
+      hash:
+        str: '明文：'
+        placeholder: 请输入明文...
+        salt: '加盐长度：'
+        copy: 复制Hash
+      compare:
+        title: 明文与Hash对比
+        str: '明文：'
+        placeholder1: 请输入明文...
+        hash: 'Hash字符：'
+        placeholder2: 请输入明文...
+        match-text: 是否匹配？

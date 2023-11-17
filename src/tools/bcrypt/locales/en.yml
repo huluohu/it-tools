@@ -1,0 +1,17 @@
+tools:
+  bcrypt:
+    title: 'Bcrypt'
+    description: 'Hash and compare text string using bcrypt. Bcrypt is a password-hashing function based on the Blowfish cipher.'
+    function:
+      hash:
+        str: 'Your string：'
+        placeholder: Your string to bcrypt...
+        salt: 'Salt count：'
+        copy: Copy hash
+      compare:
+        title: Compare string with hash
+        str: 'Your string：'
+        placeholder1: Your string to compare...
+        hash: 'Your hash：'
+        placeholder2: Your hash to compare...
+        match-text: Do they match ?
