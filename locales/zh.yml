@@ -1,7 +1,7 @@
 home:
   categories:
     newestTools: '最新工具'
-    favoriteTools: '收藏的工具'
+    favoriteTools: '我的收藏'
     allTools: '全部工具'
   subtitle: '助力开发人员和 IT 工作者'
   toggleMenu: '切换菜单'
@@ -11,7 +11,7 @@ home:
   buyMeACoffee: 'Buy me a coffee'
   follow:
     title: '关注我们'
-    p1: '给我们Star'
+    p1: '给我们 Star'
     githubRepository: 'GitHub 仓库'
     p2: '关注我们的'
     twitterAccount: 'Twitter'
@@ -21,8 +21,8 @@ home:
     githubRepository: 'GitHub 仓库'
     twitter: 'Twitter 账号'
     twitterAccount: 'Twitter 账号'
-    about: '关于'
-    aboutLabel: '关于 IT-Tools'
+    about: '关于 IT-Tools'
+    aboutLabel: '关于'
     darkMode: '深色模式'
     lightMode: '浅色模式'
     mode: '颜色模式'
@@ -45,16 +45,19 @@ about:
     如果你发现了一个错误或某些东西无法按预期工作，请在GitHub存储库的[问题部分](https://github.com/CorentinTh/it-tools/issues/new/choose)提交错误报告。
 404:
   notFound: '404 页面不存在'
-  sorry: '抱歉，你访问的页面不存在。'
-  maybe: '也许你可以尝试以下链接：'
+  sorry: '抱歉，该页面似乎不存在'
+  maybe: '也许缓存出现了一些问题，试试强制刷新页面？'
   backHome: '返回主页'
+favoriteButton:
+  remove: '取消收藏'
+  add: '加入收藏'
 toolCard:
   new: '新'
 search:
   label: '搜索'
 tools:
   categories:
-    favorite-tools: '收藏的工具'
+    favorite-tools: '我的收藏'
     crypto: '加密'
     converter: '转换器'
     web: Web
