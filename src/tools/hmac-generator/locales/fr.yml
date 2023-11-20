@@ -1,0 +1,14 @@
+tools:
+  hmac-generator:
+    title: 'Générateur hmac'
+    description: "Utilisez la clé et la fonction de hachage que vous préférez pour calculer le Code d'authentification de message (hmac) basé sur le hachage."
+    function:
+      text-label: 'Texte brut pour calculer le hachage'
+      text-placeholder: 'Texte brut pour calculer le hachage...'
+      secret-label: 'La clé'
+      secret-placeholder: 'Entrez la clé...'
+      algorithm-label: 'Fonction de hachage'
+      encoding-label: 'Codage de sortie'
+      hash-label: 'Hmac pour vos textes'
+      hash-placeholder: 'Résultats pour hmac...'
+      copy: 'Copier le HMAC'

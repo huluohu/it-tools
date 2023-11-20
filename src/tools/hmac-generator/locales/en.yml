@@ -1,0 +1,14 @@
+tools:
+  hmac-generator:
+    title: 'Hmac generator'
+    description: 'Computes a hash-based message authentication code (HMAC) using a secret key and your favorite hashing function.'
+    function:
+      text-label: 'Plain text to compute the hash'
+      text-placeholder: 'Plain text to compute the hash...'
+      secret-label: 'Secret key'
+      secret-placeholder: 'Enter the secret key...'
+      algorithm-label: 'Hashing function'
+      encoding-label: 'Output encoding'
+      hash-label: 'HMAC of your text'
+      hash-placeholder: 'The result of the HMAC...'
+      copy: 'Copy HMAC'
