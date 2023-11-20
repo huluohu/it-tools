@@ -1,0 +1,10 @@
+tools:
+  bip39-generator:
+    title: 'BIP39 générateur de mot de passe'
+    description: "Générer une phrase de passe BIP39 à partir d'un mnémonique existant ou aléatoire, ou obtenir un mnémonique à partir d'une phrase de passe."
+    function:
+      language: 'Langue:'
+      entropy: 'Entropie (semences):'
+      entropy-placeholder: 'Votre corde...'
+      passphrase: 'Phrase de passe (mnémonique):'
+      passphrase-placeholder: 'Votre mnémonique...'

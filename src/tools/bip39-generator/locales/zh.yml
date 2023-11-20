@@ -1,0 +1,10 @@
+tools:
+  bip39-generator:
+    title: 'BIP39密码生成器'
+    description: '从现有的或随机助记符生成BIP39密码短语，或从密码短语中获取助记符。'
+    function:
+      language: '语言:'
+      entropy: '熵（种子）:'
+      entropy-placeholder: '请输入种子...'
+      passphrase: '密码短语（助记词）:'
+      passphrase-placeholder: '生成的助记词...'
