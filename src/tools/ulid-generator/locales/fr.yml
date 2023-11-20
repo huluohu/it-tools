@@ -1,0 +1,9 @@
+tools:
+  ulid-generator:
+    title: 'Générateur Ulid'
+    description: "Générer des identifiants génériques uniques et aléatoires (Ulid)."
+    function:
+      format: 'Arrangement général:'
+      quantity: 'Quantité:'
+      copy: 'Copier'
+      refresh: 'Rafraîchir'
