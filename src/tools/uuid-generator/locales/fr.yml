@@ -1,0 +1,12 @@
+tools:
+  uuid-generator:
+    title: 'Le générateur uuid'
+    description: "Un identifiant unique universel (uuid) est un numéro de 128 bits qui identifie les informations dans un système informatique. Le nombre d'uuid possibles est 16 ^ 32, soit 2 ^ 128 ou 3.4x10 ^ 38 (c'est un grand nombre!)."
+    function:
+      version: 'Version uuid:'
+      quantity: 'Quantité:'
+      name: 'Le nom'
+      namespace: 'Espace de noms'
+      copy-tips : 'Uuid copié dans le presse - papiers'
+      copy: 'Copier'
+      refresh: 'Rafraîchir'

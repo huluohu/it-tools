@@ -1,0 +1,12 @@
+tools:
+  uuid-generator:
+    title: 'UUID生成器'
+    description: '通用唯一标识符（UUID）是一个128位的数字，用于标识计算机系统中的信息。可能的UUID数量为16^32，即2^128或约3.4x10^38（这是一个很大的数字！）。'
+    function:
+      version: 'UUID版本:'
+      quantity: '生成数量:'
+      name: '名称'
+      namespace: '命名空间'
+      copy-tips : 'UUID已复制到剪贴板'
+      copy: '复制'
+      refresh: '刷新'
