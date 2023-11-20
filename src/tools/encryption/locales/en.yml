@@ -1,0 +1,24 @@
+tools:
+  encryption:
+    title: 'Encrypt / Decrypt text'
+    description: 'Encrypt and decrypt text clear text using crypto algorithm like AES, TripleDES, Rabbit or RC4.'
+    function:
+      encrypt:
+        title: 'Encrypt'
+        text-label: 'Your Text:'
+        text-placeholder: 'The string to cypher'
+        secret-label: 'Your secret key:'
+        secret-placeholder: 'Your secret key'
+        algorithm-label: 'Encryption algorithm:'
+        encrypted-label: 'Your text encrypted:'
+        encrypted-placeholder: 'Your string hash'
+      decrypt:
+        title: 'Decrypt'
+        text-label: 'Your encrypted text:'
+        text-placeholder: 'The string to cypher'
+        secret-label: 'Your secret key:'
+        secret-placeholder: 'Your secret key'
+        algorithm-label: 'Encryption algorithm:'
+        decrypted-label: 'Your decrypted text:'
+        decrypted-placeholder: 'Your string hash'
+        decrypted-error: 'Error while decrypting'

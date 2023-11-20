@@ -1,0 +1,24 @@
+tools:
+  encryption:
+    title: '加解密'
+    description: '使用AES、TripleDES、Rabbit或RC4等加密算法对文本明文进行加密和解密。'
+    function:
+      encrypt:
+        title: '加密'
+        text-label: '明文:'
+        text-placeholder: '要加密的字符串'
+        secret-label: '密钥:'
+        secret-placeholder: '用于加密的密钥'
+        algorithm-label: '加密算法:'
+        encrypted-label: '密文:'
+        encrypted-placeholder: '加密后的密文'
+      decrypt:
+        title: '解密'
+        text-label: '密文:'
+        text-placeholder: 'The string to cypher'
+        secret-label: '密钥:'
+        secret-placeholder: '用于解密的密钥'
+        algorithm-label: '加密算法:'
+        decrypted-label: '明文:'
+        decrypted-placeholder: '解密后的明文'
+        decrypted-error: '解密发生错误'

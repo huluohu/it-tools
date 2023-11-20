@@ -1,0 +1,24 @@
+tools:
+  encryption:
+    title: 'Crypter / Décrypter le texte'
+    description: 'Chiffrez et Déchiffrez le texte clair en utilisant des algorithmes de chiffrement tels que AES, tripledes, Rabbit ou RC4.'
+    function:
+      encrypt:
+        title: 'Crypter'
+        text-label: 'Votre texte:'
+        text-placeholder: 'Chaîne à crypter'
+        secret-label: 'Votre clé:'
+        secret-placeholder: 'Votre clé:'
+        algorithm-label: 'Algorithme de chiffrement:'
+        encrypted-label: 'Votre texte est crypté:'
+        encrypted-placeholder: 'Votre chaîne Hash'
+      decrypt:
+        title: 'Décrypter'
+        text-label: 'Votre texte crypté:'
+        text-placeholder: 'Chaîne à crypter'
+        secret-label: 'Votre clé:'
+        secret-placeholder: 'Votre clé'
+        algorithm-label: 'Algorithme de chiffrement:'
+        decrypted-label: 'Votre texte décrypté:'
+        decrypted-placeholder: 'Votre chaîne Hash'
+        decrypted-error: 'Erreur lors du décryptage'
