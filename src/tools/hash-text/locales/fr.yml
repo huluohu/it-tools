@@ -2,4 +2,6 @@ tools:
   hash-text:
     title: Texte de hachage
     description: 'Hachez la chaîne de texte avec la fonction souhaitée: MD5, sha1, sha256, sha224, sha512, sha384, sha3 ou ripemd160.'
-    source-text: 'Chaîne à hacher...'
+    source-label: 'Chaîne à hacher'
+    source-placeholder: 'Chaîne à hacher...'
+    encoding-label: 'Codage du Résumé'

@@ -2,4 +2,6 @@ tools:
   hash-text:
     title: Hash 生成器
     description: '使用MD5、SHA1、SHA256、SHA224、SHA512、SHA384、SHA3或RIPEMD160生成哈希文本字符串：'
-    source-text: '原始文本...'
+    source-label: '原始文本'
+    source-placeholder: '请输入原始文本...'
+    encoding-label: '摘要编码'
