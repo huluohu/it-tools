@@ -34,3 +34,5 @@ else
 fi
 
 echo "构建镜像完成"
+
+## 如果构建失败，先执行一下：docker run --privileged --rm tonistiigi/binfmt --install all
