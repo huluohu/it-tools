@@ -1,0 +1,9 @@
+tools:
+  rsa-key-pair-generator:
+    title: 'Générateur de paire de clés RSA'
+    description: 'Générer de nouveaux certificats de PEM de clés privées et publiques RSA aléatoires.'
+    function:
+      bits: 'Bits:'
+      public-key: 'La clé publique'
+      private-key: 'La clé privée'
+      refresh: 'Actualiser la paire de clés'
