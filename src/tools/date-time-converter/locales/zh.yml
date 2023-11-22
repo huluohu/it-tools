@@ -1,0 +1,7 @@
+tools:
+  date-converter:
+    title: '日期/时间转换器'
+    description: '将日期和时间转换为各种不同的格式'
+    function:
+      date-input-placeholder: '输入日期字符串...'
+      date-output-placeholder: '无效的日期...'

@@ -28,7 +28,7 @@ import {
 } from './date-time-converter.models';
 import { withDefaultOnError } from '@/utils/defaults';
 import { useValidation } from '@/composable/validation';
-
+const { t } = useI18n();
 const inputDate = ref('');
 
 const toDate: ToDateMapper = date => new Date(date);
@@ -155,7 +155,7 @@ function formatDateUsingFormatter(formatter: (date: Date) => string, date?: Date
       <c-input-text
         v-model:value="inputDate"
         autofocus
-        placeholder="Put your date string here..."
+        :placeholder="t('tools.date-converter.function.date-input-placeholder')"
         clearable
         test-id="date-time-converter-input"
         :validation="validation"
@@ -180,7 +180,7 @@ function formatDateUsingFormatter(formatter: (date: Date) => string, date?: Date
       label-position="left"
       label-align="right"
       :value="formatDateUsingFormatter(fromDate, normalizedDate)"
-      placeholder="Invalid date..."
+      :placeholder="t('tools.date-converter.function.date-output-placeholder')"
       :test-id="name"
       readonly
       mt-2

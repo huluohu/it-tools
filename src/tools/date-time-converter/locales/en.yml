@@ -1,0 +1,7 @@
+tools:
+  date-converter:
+    title: 'Date-time converter'
+    description: 'Convert date and time into the various different formats'
+    function:
+      date-input-placeholder: 'Put your date string here...'
+      date-output-placeholder: 'Invalid date...'

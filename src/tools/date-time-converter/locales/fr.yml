@@ -1,0 +1,7 @@
+tools:
+  date-converter:
+    title: 'Convertisseur date - heure'
+    description: "Convertir la date et l'heure en différents formats"
+    function:
+      date-input-placeholder: 'Mettez votre chaîne de date ici...'
+      date-output-placeholder: 'Date invalide...'
