@@ -1,0 +1,11 @@
+tools:
+  password-strength-analyser:
+    title: 'Password strength analyser'
+    description: 'Discover the strength of your password with this client side only password strength analyser and crack time estimation tool.'
+    function:
+      passwd-placeholder: 'Enter a password...'
+      summary:
+        title: 'Duration to crack this password with brute force'
+      note:
+        title: 'Note:'
+        detail: 'The computed strength is based on the time it would take to crack the password using a brute force approach, it does not take into account the possibility of a dictionary attack.'

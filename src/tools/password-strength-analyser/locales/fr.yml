@@ -1,0 +1,11 @@
+tools:
+  password-strength-analyser:
+    title: 'Analyseur de force cryptographique'
+    description: "Découvrez la force de votre mot de passe avec cet analyseur de force de mot de passe client uniquement et l'outil d'estimation du temps de piratage."
+    function:
+      passwd-placeholder: 'Entrez le mot de passe...'
+      summary:
+        title: 'Durée de déchiffrement de ce mot de passe avec force brute'
+      note:
+        title: 'Note:'
+        detail: "La Force calculée est basée sur le temps nécessaire pour déchiffrer un mot de passe en utilisant une méthode de force brute, et elle ne tient pas compte de la possibilité d'une attaque par dictionnaire."
