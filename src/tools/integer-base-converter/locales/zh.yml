@@ -1,0 +1,22 @@
+tools:
+  base-converter:
+    title: '进制转换器'
+    description: '在不同的进制之间转换数字（十进制、十六进制、二进制、八进制、base64…）'
+    function:
+      input:
+        num-title: '数字'
+        num-placeholder: '请输入数字(例如: 42)'
+        base-title: '进制'
+        base-placeholder: '请输入进制(ex: 10)'
+      bases:
+        binary-title: '二进制'
+        binary-placeholder: '二进制结果...'
+        octal-title: '八进制'
+        octal-placeholder: '八进制结果...'
+        decimal-title: '十进制'
+        decimal-placeholder: '十进制结果...'
+        hexadecimal-title: '十六进制'
+        hexadecimal-placeholder: '十六进制结果...'
+        base64-title: 'Base64'
+        base64-placeholder: 'Base64结果...'
+        custom-title: '自定义'

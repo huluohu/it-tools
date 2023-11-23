@@ -1,0 +1,22 @@
+tools:
+  base-converter:
+    title: 'Integer base converter'
+    description: 'Convert number between different bases (decimal, hexadecimal, binary, octal, base64, ...)'
+    function:
+      input:
+        num-title: 'Input number'
+        num-placeholder: 'Put your number here (ex: 42)'
+        base-title: 'Input base'
+        base-placeholder: 'Put your input base here (ex: 10)'
+      bases:
+        binary-title: 'Binary'
+        binary-placeholder: 'Binary version will be here...'
+        octal-title: 'Octal'
+        octal-placeholder: 'Octal version will be here...'
+        decimal-title: 'Decimal'
+        decimal-placeholder: 'Decimal version will be here...'
+        hexadecimal-title: 'Hexadecimal'
+        hexadecimal-placeholder: 'Hexadecimal version will be here...'
+        base64-title: 'Base64'
+        base64-placeholder: 'Base64 version will be here...'
+        custom-title: 'Custom'

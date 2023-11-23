@@ -1,0 +1,22 @@
+tools:
+  base-converter:
+    title: 'Convertisseur de base entière'
+    description: 'Convertir des nombres entre différentes bases (décimal, hexadécimal, binaire, Octal, base64...)'
+    function:
+      input:
+        num-title: 'Entrez le numéro'
+        num-placeholder: 'Mettez votre numéro ici (exemple: 42)'
+        base-title: 'Entrez la base'
+        base-placeholder: "Mettez votre base d'entrée ici (exemple: 10)"
+      bases:
+        binary-title: 'Binaire'
+        binary-placeholder: 'La version binaire sera là...'
+        octal-title: 'Octal'
+        octal-placeholder: 'La version octale sera là...'
+        decimal-title: 'Décimale'
+        decimal-placeholder: 'La version décimale sera ici...'
+        hexadecimal-title: 'Dexadécimale'
+        hexadecimal-placeholder: 'La version hexadécimale sera ici...'
+        base64-title: 'Le base64'
+        base64-placeholder: 'La version base64 sera là...'
+        custom-title: 'Les coutumes'
