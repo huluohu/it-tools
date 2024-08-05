@@ -105,11 +105,10 @@ pnpm run script:create:tool my-tool-name
 
 It will create a directory in `src/tools` with the correct files, and a the import in `src/tools/index.ts`. You will just need to add the imported tool in the proper category and develop the tool.
 
-
 ### DockerImage
 
 ```bash
-docker buildx build --builder mybuildx  -t fooololo/it-tools:latest  --platform linux/amd64,linux/arm64,linux/arm/v7  --push . 
+docker buildx build --builder mybuildx  -t fooololo/it-tools:latest  --platform linux/amd64,linux/arm64  --push . 
 ```
 
 ## Contributors
